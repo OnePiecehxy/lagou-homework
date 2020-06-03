@@ -1,0 +1,12 @@
+<configuration>
+    <dataSource>
+        <property name="jdbcClass" value="com.mysql.jdbc.Driver"></property>
+        <property name="jdbcUrl" value="jdbc:mysql://localhost:3306/qcwebtool"></property>
+        <property name="username" value="root"></property>
+        <property name="password" value="123456"></property>
+    </dataSource>
+    <mapper resources="mapper/userMapper.xml">
+
+
+    </mapper>
+</configuration>
