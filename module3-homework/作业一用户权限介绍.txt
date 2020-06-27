@@ -1,2 +1,0 @@
-zhangsan 可以访问/demo目录下的所有url
-lisi 可以访问/demo/query
