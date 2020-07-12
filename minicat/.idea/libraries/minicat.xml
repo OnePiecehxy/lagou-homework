@@ -1,9 +1,0 @@
-<component name="libraryTable">
-  <library name="minicat">
-    <CLASSES>
-      <root url="jar://$PROJECT_DIR$/../demo3/web/WEB-INF/lib/minicat.jar!/" />
-    </CLASSES>
-    <JAVADOC />
-    <SOURCES />
-  </library>
-</component>

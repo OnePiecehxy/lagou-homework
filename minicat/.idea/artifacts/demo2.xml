@@ -1,6 +1,0 @@
-<component name="ArtifactManager">
-  <artifact type="ear" name="demo2">
-    <output-path>$PROJECT_DIR$/out/artifacts/demo2</output-path>
-    <root id="archive" name="demo2.ear" />
-  </artifact>
-</component>

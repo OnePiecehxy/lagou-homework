@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en"  xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<h2 th:text="${#httpServletRequest.getRequestURL()}">服务器</h2>
+<h2 th:text="${#session.id}">当前sessionId</h2>
+<form th:action="@{/update}" method="post">
+    <div>
+        <input type="text" name="id" th:value="${resume.id}">
+        <label>地址</label>
+        <input type="text" name="address"  th:value="${resume.address}"/>
+    </div>
+    <div>
+        <label>姓名</label>
+        <input type="text" name="name"  th:value="${resume.name}"/>
+    </div>
+    <div>
+        <label>电话</label>
+        <input type="text" name="phone"  th:value="${resume.phone}"/>
+    </div>
+
+
+    <div>
+        <input type="submit" value="提交" />
+    </div>
+</form>
+</body>
+</html>
