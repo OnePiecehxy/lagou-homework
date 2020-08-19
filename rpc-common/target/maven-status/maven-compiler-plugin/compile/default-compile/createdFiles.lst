@@ -1,6 +1,0 @@
-com\lagou\coder\RpcDecoder.class
-com\lagou\pojo\RpcRequest.class
-com\lagou\service\common\IUserService.class
-com\lagou\coder\RpcEncoder.class
-com\lagou\serializable\JsonSerializer.class
-com\lagou\serializable\Serializer.class
