@@ -12,8 +12,6 @@
         <module>service-api</module>
         <module>service-provider</module>
         <module>service-consumer</module>
-        <module>demo_spi_loadbalance</module>
-        <module>dubbo_spi_threadpool</module>
         <module>dubbo_spi_filter_monitor</module>
     </modules>
     <properties>
